@@ -1,0 +1,8 @@
+name: Notify Parent Repo
+on: { push: { branches: [main] } }
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peter-evans/repository-dispatch@v3
+        with: { token: "${{ secrets.SUBMODULE_SYNC_TOKEN }}", repository: "TechFreeKorea/Techfree_Solution", event-type: submodule-updated, client-payload: '{"submodule": "stellar-veil"}' }

@@ -1,0 +1,18 @@
+[submodule "planning"]
+	path = planning
+	url = https://github.com/TechFreeKorea/stellar-veil_planning.git
+[submodule "development"]
+	path = development
+	url = https://github.com/TechFreeKorea/stellar-veil_development.git
+[submodule "design"]
+	path = design
+	url = https://github.com/TechFreeKorea/stellar-veil_design.git
+[submodule "deployment"]
+	path = deployment
+	url = https://github.com/TechFreeKorea/stellar-veil_deployment.git
+[submodule "qa"]
+	path = qa
+	url = https://github.com/TechFreeKorea/stellar-veil_qa.git
+[submodule "contract"]
+	path = contract
+	url = https://github.com/TechFreeKorea/stellar-veil_contract.git
