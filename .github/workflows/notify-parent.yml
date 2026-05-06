@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: peter-evans/repository-dispatch@v3
-        with: { token: "${{ secrets.SUBMODULE_SYNC_TOKEN }}", repository: "TechFreeKorea/Techfree_Solution", event-type: submodule-updated, client-payload: '{"submodule": "stellar-veil"}' }
+        with: { token: "${{ secrets.SUBMODULE_SYNC_TOKEN }}", repository: "TechFreeKorea/Techfree_Solution", event-type: submodule-updated, client-payload: '{"submodule": "galaxpp"}' }

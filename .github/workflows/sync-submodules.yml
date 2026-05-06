@@ -16,4 +16,4 @@ jobs:
           if git diff --cached --quiet; then echo "No changes."; else git commit -m "chore: update submodule pointers" && git push; fi
       - if: success()
         uses: peter-evans/repository-dispatch@v3
-        with: { token: "${{ secrets.SUBMODULE_SYNC_TOKEN }}", repository: "TechFreeKorea/Techfree_Solution", event-type: submodule-updated, client-payload: '{"submodule": "stellar-veil"}' }
+        with: { token: "${{ secrets.SUBMODULE_SYNC_TOKEN }}", repository: "TechFreeKorea/Techfree_Solution", event-type: submodule-updated, client-payload: '{"submodule": "galaxpp"}' }
